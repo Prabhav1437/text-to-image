@@ -8,8 +8,7 @@ def generate_image_with_text():
     if not text:
         return
 
-    # Create an image with a random RGB background
-    width, height = 400 , 400
+    width, height = 400 , 200
     background = Image.new('RGB', (width, height), (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
 
     draw = ImageDraw.Draw(background)
@@ -24,7 +23,7 @@ def generate_image_with_text():
     background.show()
 
 root = tk.Tk()
-root.title("Random RGB Background Text Generator")
+root.title("Test to Image")
 
 text_label = tk.Label(root, text="Enter Text:")
 text_label.pack()
