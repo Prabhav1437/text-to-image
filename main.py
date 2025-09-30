@@ -32,5 +32,5 @@ text_entry.pack()
 
 generate_button = tk.Button(root, text="Generate Image", command=generate_image_with_text)
 generate_button.pack()
-
+root.state("zoomed")
 root.mainloop()
