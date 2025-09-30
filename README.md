@@ -45,6 +45,7 @@ Through this project, I gained hands-on experience with:
 3. The program:  
    - Creates a random RGB background using Pillow.  
    - Draws the user’s text on top of the background.  
-   - Opens the image in the default image viewer.  
+   - Opens the image in the default image viewer.
+---
 ![Text to Image App Screenshot](app_ss.png)
 ---
