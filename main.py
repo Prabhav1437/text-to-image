@@ -9,13 +9,11 @@ def generate_image_with_text():
         return
 
     # Create an image with a random RGB background
-    width, height = 400, 200  # You can adjust the dimensions as needed
+    width, height = 400 , 400
     background = Image.new('RGB', (width, height), (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
 
-    # Create a drawing context
     draw = ImageDraw.Draw(background)
 
-    # Set text color and font
     text_color = (255, 255, 255)
     font = ImageFont.load_default()
 
