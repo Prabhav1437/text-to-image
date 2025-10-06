@@ -199,7 +199,6 @@ class TextToImageApp:
             preview_img = image.copy()
             preview_img.thumbnail(preview_size, Image.Resampling.LANCZOS)
             
-            # Convert to PhotoImage for tkinter
             self.preview_image = ImageTk.PhotoImage(preview_img)
             
             # Update canvas
