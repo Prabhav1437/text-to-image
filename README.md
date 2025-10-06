@@ -4,27 +4,27 @@ A powerful and user-friendly **Text-to-Image Generator** built with Python and T
 
 Instead of generating images *from text content creatively* (like AI), this app **creates images of the text itself** with advanced formatting and styling options.
 
-## ✨ Key Features
+## Key Features
 
-### 🎨 **Advanced Customization**
+### **Advanced Customization**
 - **Custom Colors**: Choose any text and background colors using color picker
 - **Font Size Control**: Adjustable font size from 12px to 72px with real-time slider
 - **Image Dimensions**: Customizable width (400-1920px) and height (300-1080px)
 - **Random Backgrounds**: Generate random colorful backgrounds with one click
 
-### 📝 **Text Handling**
+### **Text Handling**
 - **Multi-line Support**: ScrolledText widget for long text input
 - **Smart Text Wrapping**: Automatic text wrapping to fit image dimensions
 - **Paragraph Support**: Preserves paragraph breaks and formatting
 - **Real-time Preview**: See changes instantly as you type
 
-### 🖼️ **Image Management**
+### **Image Management**
 - **Live Preview**: Real-time preview with scrollable canvas
 - **Save Functionality**: Save images in PNG or JPEG format with timestamp
 - **External Viewer**: Open generated images in system default viewer
 - **High Quality**: Support for high-resolution image generation
 
-### 🎯 **User Experience**
+### **User Experience**
 - **Modern UI**: Clean, professional interface with organized controls
 - **Responsive Layout**: Resizable window with proper grid management
 - **Error Handling**: User-friendly error messages and warnings
@@ -32,7 +32,7 @@ Instead of generating images *from text content creatively* (like AI), this app 
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**:
    ```bash
@@ -52,7 +52,7 @@ Instead of generating images *from text content creatively* (like AI), this app 
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.7+
 - Pillow (PIL) 10.0.0+
@@ -60,7 +60,7 @@ Instead of generating images *from text content creatively* (like AI), this app 
 
 ---
 
-## 🎮 How to Use
+## How to Use
 
 1. **Enter Text**: Type or paste your text in the scrollable text area
 2. **Customize Appearance**:
@@ -76,7 +76,7 @@ Instead of generating images *from text content creatively* (like AI), this app 
 
 ---
 
-## 🛠️ Technical Features
+## Technical Features
 
 ### **Architecture**
 - Object-oriented design with clean class structure
@@ -99,13 +99,13 @@ Instead of generating images *from text content creatively* (like AI), this app 
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ![Text to Image App Screenshot](app_ss.png)
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - Font family selection
 - Text alignment options (left, center, right)
@@ -117,19 +117,8 @@ Instead of generating images *from text content creatively* (like AI), this app 
 - Export to multiple formats
 
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-- Improve documentation
-
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
-
-**Built with ❤️ using Python, Tkinter, and Pillow**
